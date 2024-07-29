@@ -34,7 +34,7 @@ namespace MultiShop.Order.Persistence.Repositories
 
         public async Task<List<T>> GetAllAsync()
         {
-            return await _context.Set<T>().ToListAsync(); 
+            return await _context.Set<T>().ToListAsync();
         }
 
         public async Task<T> GetByFilterAsync(Expression<Func<T, bool>> filter)
@@ -53,6 +53,6 @@ namespace MultiShop.Order.Persistence.Repositories
             await _context.SaveChangesAsync();
         }
     }
-    {
-    }
+
 }
+
