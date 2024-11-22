@@ -12,8 +12,8 @@ using MultiShop.Discount.Context;
 namespace MultiShop.Discount.Migrations
 {
     [DbContext(typeof(DapperContext))]
-    [Migration("20240729124851_mig1")]
-    partial class mig1
+    [Migration("20240807100140_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
