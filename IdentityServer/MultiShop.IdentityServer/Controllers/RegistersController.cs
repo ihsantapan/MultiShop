@@ -21,7 +21,7 @@ namespace MultiShop.IdentityServer.Controllers
         {
             var values = new ApplicationUser()
             {
-                UserName = userRegisterDto.Name,
+                UserName = userRegisterDto.UserName,
                 Email = userRegisterDto.Email,
                 Name = userRegisterDto.Name,
                 Surname = userRegisterDto.Surname,

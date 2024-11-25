@@ -64,7 +64,7 @@ internal static class HostingExtensions
         app.UseRouting();
         app.UseIdentityServer();
         app.UseAuthorization();
-        
+        app.MapControllers();
         app.MapRazorPages()
             .RequireAuthorization();
 
