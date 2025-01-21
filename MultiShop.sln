@@ -38,6 +38,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirments", "Requirments"
 		IdentityServerVersionErrorSolution.txt = IdentityServerVersionErrorSolution.txt
 		PortainerCmd.txt = PortainerCmd.txt
 		PortNumbers.txt = PortNumbers.txt
+		SimpleCode.txt = SimpleCode.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cargo", "Cargo", "{D737E557-DFA7-4C41-8646-1C3360D6982E}"
@@ -60,7 +61,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.WebUI", "Frontends\MultiShop.WebUI\MultiShop.WebUI.csproj", "{DB9BA295-96D4-4A56-AC1D-3AA52AECFFF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.DtoLayer", "Frontends\MultiShop.DtoLayer\MultiShop.DtoLayer.csproj", "{A15E162F-57C0-43C9-9ED2-612713B1F03B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.DtoLayer", "Frontends\MultiShop.DtoLayer\MultiShop.DtoLayer.csproj", "{A15E162F-57C0-43C9-9ED2-612713B1F03B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
